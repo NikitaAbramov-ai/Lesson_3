@@ -20,7 +20,7 @@ public static void printCol() {
     int value = 101;
     if (value <=0) {
         System.out.println("red");
-    } if (value>0 && value<100) {
+    } if (value<100) {    //Исправил
         System.out.println("yellow");
     } if (value>100) {
         System.out.println("green");
